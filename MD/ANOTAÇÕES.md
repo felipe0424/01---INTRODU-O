@@ -2,8 +2,8 @@
 
 ### 1. Definir o documento HTML
 
-> html ou !
-
+Para iniciar o novo documento digite *html* ou *!* e depois tecle *Enter* que iniciará.
+ 
 ```
 <!DOCTYPE html>
 <html lang="pt-BR">
