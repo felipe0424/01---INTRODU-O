@@ -19,9 +19,8 @@ Para iniciar o novo documento digite *html* ou *!* e depois tecle *Enter* que in
 
 ### 2. Cabeçalhos e Parágrafos
 
-> h1 a h6
-
 Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
+> Os tamanhos de *h1* a *h6* são variáveis.
 
 ```
 <h1>Cabeçalho 1</h1>
