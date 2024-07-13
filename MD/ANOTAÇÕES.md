@@ -87,7 +87,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 </a>
 ```
 
-### Tabelas
+### 8. Tabelas
 * Definir uma tabela
 ```
 <table>
@@ -110,7 +110,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 </table>
 ```
 
-### 8. Formulários
+### 9. Formulários
 * Definir um formulário
 ```
 <form action="/enviar" method="post">
@@ -130,7 +130,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 </form>
 ```
 
-### 9. Seções e Agrupamentos
+### 10. Seções e Agrupamentos
 * Divisão ou seção
 ```
 <div class="container">
@@ -168,7 +168,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
     <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
 </footer>
 ```
-### 10. Outros
+### 11. Outros
 * Script
 ```
 <script>
