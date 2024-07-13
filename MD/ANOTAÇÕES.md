@@ -82,7 +82,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 ```
 * Imagem + Link
 ```
-<a href="https://www.exemplo.com" target="_blank">
+<a href="https://www.exemplo.com">
     <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
 </a>
 ```
