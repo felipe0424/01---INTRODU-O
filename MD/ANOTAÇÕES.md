@@ -1,6 +1,6 @@
 ## Tags HTML
 
-### Definir o documento HTML
+### 1. Definir o documento HTML
 
 > html ou !
 
@@ -17,7 +17,7 @@
 </html>
 ```
 
-### Cabeçalhos e Parágrafos
+### 2. Cabeçalhos e Parágrafos
 
 > h1 a h6
 
@@ -32,17 +32,17 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 <h6>Cabeçalho 6</h6>
 ```
 
-### Definir um parágrafo
+### 3. Definir um parágrafo
 ```
 <p>Este é um parágrafo de texto.</p>
 ```
 
-### Botão
+### 4. Botão
 ```
 <button type="button">Clique Aqui</button>
 ```
 
-### Formatação de Texto
+### 5. Formatação de Texto
 
 * Negrito
 ```
@@ -53,7 +53,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 <i>Texto em itálico</i>
 ```
 
-### Listas
+### 6. Listas
 * Lista não ordenada
 
 ```
@@ -72,7 +72,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 </ol>
 ```
 
-### Links e Imagens
+### 7. Links e Imagens
 * Hiperlink
 ```
 <a href="https://www.exemplo.com" target="_blank" title="Visite o Exemplo">Clique Aqui</a>
@@ -104,7 +104,7 @@ Definir uma tabela
 </table>
 ```
 
-### Formulários
+### 8. Formulários
 * Definir um formulário
 ```
 <form action="/enviar" method="post">
@@ -124,7 +124,7 @@ Definir uma tabela
 </form>
 ```
 
-### Seções e Agrupamentos
+### 9. Seções e Agrupamentos
 * Divisão ou seção
 ```
 <div class="container">
@@ -162,7 +162,7 @@ Definir uma tabela
     <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
 </footer>
 ```
-### Outros
+### 10. Outros
 * Script
 ```
 <script>
