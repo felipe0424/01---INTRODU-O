@@ -2,11 +2,21 @@
 ## Índice
 
 * [1. Definir HTML](#1-definir-o-documento-html)
+* [2. Cabeçalho e Parágrafos](#2-cabeçalhos-e-parágrafos)
+* [3. Definir Parágrafo](#3-definir-um-parágrafo)
+* [4. Botões *Buttons*](#4-botão)
+* [5. Formatação de Texto](#5-formatação-de-texto)
+* [6. Listas](#6-listas)
+* [7. Links e Imagens](#7-links-e-imagens)
+* [8. Tabelas](#8-tabelas)
+* [9. Formulários](#9-formulários)
+* [10. Seções e Agrupamentos](#10-seções-e-agrupamentos)
+* [11. Outras Tags](#11-outros)
 
 ### 1. Definir o documento HTML
 Para iniciar o novo documento digite *html* ou *!* e depois tecle *Enter* que iniciará.
  
-```r
+```rust
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -20,11 +30,10 @@ Para iniciar o novo documento digite *html* ou *!* e depois tecle *Enter* que in
 ```
 
 ### 2. Cabeçalhos e Parágrafos
-
 Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 > Os tamanhos de *h1* a *h6* são variáveis.
 
-```
+```rust
 <h1>Cabeçalho 1</h1>
 <h2>Cabeçalho 2</h2>
 <h3>Cabeçalho 3</h3>
@@ -34,30 +43,29 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 ```
 
 ### 3. Definir um parágrafo
-```
+```r
 <p>Este é um parágrafo de texto.</p>
 ```
 
 ### 4. Botão
-```
+```rust
 <button type="button">Clique Aqui</button>
 ```
 
 ### 5. Formatação de Texto
-
 * Negrito
-```
+```r
 <b>Texto em negrito</b>
 ```
 * Itálico
-```
+```r
 <i>Texto em itálico</i>
 ```
 
 ### 6. Listas
 * Lista não ordenada
 
-```
+```rust
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -65,7 +73,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 </ul>
 ```
 * Lista ordenada
-```
+```rust
 <ol>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -75,15 +83,15 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 
 ### 7. Links e Imagens
 * Hiperlink
-```
+```rust
 <a href="https://www.exemplo.com" target="_blank" title="Visite o Exemplo">Clique Aqui</a>
 ```
 * Imagem
-```
+```rust
 <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
 ```
 * Imagem + Link
-```
+```rust
 <a href="https://www.exemplo.com">
     <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
 </a>
@@ -91,7 +99,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 
 ### 8. Tabelas
 * Definir uma tabela
-```
+```rust
 <table>
     <thead>
         <tr>
@@ -114,7 +122,7 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 
 ### 9. Formulários
 * Definir um formulário
-```
+```rust
 <form action="/enviar" method="post">
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome">
@@ -134,18 +142,18 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 
 ### 10. Seções e Agrupamentos
 * Divisão ou seção
-```
+```rust
 <div class="container">
     <h2>Conteúdo da Div</h2>
     <p>Este é um exemplo de uso da tag &lt;div&gt; para agrupar conteúdo.</p>
 </div>
 ```
 * Seção em linha
-```
+```r
 <p>Texto com <span>parte em destaque</span>.</p>
 ```
 * Cabeçalho de Seção (header)
-```
+```rust
 <header>
     <h1>Título da Página</h1>
     <nav>
@@ -158,37 +166,37 @@ Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
 </header>
 ```
 * Seção
-```
+```rust
 <section>
     <h2>Introdução</h2>
     <p>Este é um exemplo de uso da tag &lt;section&gt; para agrupar conteúdo relacionado.</p>
 </section>
 ```
 * Rodapé (footer)
-```
+```rust
 <footer>
     <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
 </footer>
 ```
 ### 11. Outros
 * Script
-```
+```rust
 <script>
     console.log('Olá, mundo!');
 </script>
 ```
 * Link para CSS
-```
+```rust
 <link rel="stylesheet" href="estilos.css">
 ```
 * Metadados
-```
+```rust
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Descrição do site">
 ```
 * Estilos embutidos
-```
+```rust
 <style>
     body {
         font-family: Arial, sans-serif;
