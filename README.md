@@ -51,7 +51,9 @@ Definem cabeçalhos, sendo `h1` o mais importante e `h6` o menos importante.
 ### 3. Definir um parágrafo
 Detalhes sobre como usar a tag `<p>` para criar e formatar parágrafos de texto.
 ```r
-<p>Este é um parágrafo de texto.</p>
+<footer>
+  <p>&copy; 2024 Meu Site. Este é o parágrafo no rodapé no meu site.</p>
+</footer>
 ```
 
 ### 4. Botões *(Buttons)*
@@ -211,6 +213,7 @@ Para saber mais sobre meus trabalhos, entre em contato comigo através do <a hre
         <img src="https://github.com/user-attachments/assets/3fda6271-fd40-4485-bb7c-60b927b9feae" alt="GitHub" width="25">
     </a>
 </div>
+
 
 > [!WARNING]
 > Este código é disponibilizado exclusivamente para fins de estudo e aprendizado. A reprodução total ou parcial deste código, sem autorização prévia, é expressamente proibida. A utilização deste código em projetos comerciais, distribuição não autorizada ou qualquer outro uso que não seja educativo pode resultar em sanções legais. Ao utilizar este código, você concorda em respeitar os termos de uso e a propriedade intelectual do autor.
