@@ -39,7 +39,7 @@ Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois te
 ### 2. Cabeçalhos
 Definem cabeçalhos, sendo `h1` o mais importante e `h6` o menos importante.
 
-```r
+```rust
 <h1>Cabeçalho h1</h1>
 <h2>Cabeçalho h2</h2>
 <h3>Cabeçalho h3</h3>
@@ -50,7 +50,7 @@ Definem cabeçalhos, sendo `h1` o mais importante e `h6` o menos importante.
 
 ### 3. Definir um parágrafo
 Detalhes sobre como usar a tag `<p>` para criar e formatar parágrafos de texto.
-```r
+```rust
 <footer>
   <p>&copy; 2024 Meu Site. Este é o parágrafo no rodapé no meu site.</p>
 </footer>
@@ -58,44 +58,44 @@ Detalhes sobre como usar a tag `<p>` para criar e formatar parágrafos de texto.
 
 ### 4. Botões *(Buttons)*
 Como criar e estilizar botões usando a tag `<button>` e o elemento `<input type="button">`.
-```r
+```rust
 <button type="button">Clique Aqui</button>
 ```
 
 ### 5. Formatação de Texto
 Abordagem sobre como aplicar formatação de texto, incluindo negrito `<b>`, itálico `<i>`, sublinhado `<u>` e outros.
 * Negrito `<b>`
-```r
+```rust
 <b>
     Texto em negrito
 </b>
 ```
 * Itálico `<i>`
-```r
+```rust
 <i>
     Texto em itálico
 </i>
 ```
 * Sublinhado `<u>`
-```r
+```rust
 <u>
     Texto Sublinhado
 </u>
 ```
 * Destaque Negrito `<strong>`
-```r
+```rust
 <p>
     Texto em <strong>destaque</strong>
 </p>
 ```
 * Span `<span>`
-```r
+```rust
 <p>
     Texto <span>importante</span>
 </p>
 ```
 * Small `<small>`
-```r
+```rust
 <p>
     Texto <small>pequeno</small>
 </p>
@@ -105,7 +105,7 @@ Abordagem sobre como aplicar formatação de texto, incluindo negrito `<b>`, it�
 Apresenta as tags com as listas ordenadas `<ol>` e não ordenadas `<ul>`.
 * Lista não ordenada `<ul>`
 
-```r
+```rust
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -113,7 +113,7 @@ Apresenta as tags com as listas ordenadas `<ol>` e não ordenadas `<ul>`.
 </ul>
 ```
 * Lista ordenada `<ol>`
-```r
+```rust
 <ol>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -125,15 +125,15 @@ Apresenta as tags com as listas ordenadas `<ol>` e não ordenadas `<ul>`.
 Como criar links usando a tag `<a>` e inserir imagens com a tag `<img>`.
 
 * Hiperlink `<a>`
-```r
+```rust
 <a href="https://www.exemplo.com" target="_blank" title="Visite o Exemplo">Clique Aqui</a>
 ```
 * Imagem `<img>`
-```r
+```rust
 <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
 ```
 * Imagem + Link
-```r
+```rust
 <a 
 href="https://www.exemplo.com">
     <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
@@ -154,7 +154,7 @@ Como construir e estilizar tabelas usando as tags:
 `<td>` Define uma célula de dados em uma tabela. É usada dentro de uma linha `<tr>` para conter os dados da tabela.
 
 * Definir uma tabela
-```r
+```rust
 <table>
     <thead>
         <tr>
@@ -179,23 +179,23 @@ Como construir e estilizar tabelas usando as tags:
 Exploração de outras tags HTML úteis, como `<script>`, `<link>`, `<meta>`e `<style>`.
 
 * Script `<script>`
-```r
+```rust
 <script>
     console.log('Olá, mundo!');
 </script>
 ```
 * Link para CSS `<link>`
-```r
+```rust
 <link rel="stylesheet" href="estilos.css">
 ```
 * Metadados `<meta>`
-```r
+```rust
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Título do site">
 ```
 * Estilos embutidos `<style>`
-```r
+```rust
 <style>
     body {
         font-family: Arial, sans-serif;
