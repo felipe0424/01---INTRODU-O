@@ -189,7 +189,7 @@ Exploração de outras tags HTML úteis, como `<script>`, `<link>`, `<meta>`e `<
     }
 </style>
 ```
-## Contato
+## :telephone_receiver:	Contato
 Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
 
 <div align=center>
