@@ -23,7 +23,7 @@
 ### 1. Definir o documento HTML
 Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois tecle `Enter` que iniciará.
  
-```r
+```rust
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
