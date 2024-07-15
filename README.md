@@ -5,11 +5,11 @@
 # **Tags HTML**
 </div>
 
-## Índice
+## :bookmark_tabs:	Índice
 * [1. Definir HTML](#1-definir-o-documento-html)
-* [2. Cabeçalho e Parágrafos](#2-cabeçalhos-e-parágrafos)
+* [2. Cabeçalhos](#2-cabeçalhos)
 * [3. Definir Parágrafo](#3-definir-um-parágrafo)
-* [4. Botões *(Buttons)*](#4-botão)
+* [4. Botões *(Buttons)*](#4-botões-buttons)
 * [5. Formatação de Texto](#5-formatação-de-texto)
 * [6. Listas](#6-listas)
 * [7. Links e Imagens](#7-links-e-imagens)
@@ -24,6 +24,8 @@
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/d3813ef4-1409-40c9-9bfb-6e988f79b2c8" alt="Git" width="50"></a>
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b03adba8-e155-4555-8737-2afaf449620d" alt="Node" width="50"></a>
 </div>
+
+## Conteúdo
 
 ### 1. Definir o documento HTML
 Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois tecle `Enter` para iniciar.
