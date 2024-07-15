@@ -16,7 +16,7 @@
 * [8. Tabelas](#8-tabelas)
 * [9. Outras Tags](#9-outras-tags)
 
-## Ferramentas utilizadas no desenvolvimento
+## :computer:	Ferramentas utilizadas no desenvolvimento
 <div align="auto">
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b0cd55d7-f6f0-4cf9-a90d-db45c1832215" alt="html" width="50"></a>
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/6bcb928a-c5f9-4030-9258-3cacee37f553" alt="css" width="50"></a>
@@ -25,7 +25,7 @@
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b03adba8-e155-4555-8737-2afaf449620d" alt="Node" width="50"></a>
 </div>
 
-## Conteúdo
+## :books:	Conteúdo
 
 ### 1. Definir o documento HTML
 Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois tecle `Enter` para iniciar.
