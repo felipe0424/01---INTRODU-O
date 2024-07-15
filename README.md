@@ -23,7 +23,7 @@
 ### 1. Definir o documento HTML
 Para iniciar o novo documento `<!DOCTYPE html>` digite `html` ou `!` e depois tecle `Enter` que iniciará.
  
-```rust
+```r
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -66,39 +66,27 @@ Como criar e estilizar botões usando a tag `<button>` e o elemento `<input type
 Abordagem sobre como aplicar formatação de texto, incluindo negrito `<b>`, itálico `<i>`, sublinhado `<u>` e outros.
 * Negrito `<b>`
 ```rust
-<b>
-    Texto em negrito
-</b>
+<b>Texto em negrito</b>
 ```
 * Itálico `<i>`
 ```rust
-<i>
-    Texto em itálico
-</i>
+<i>Texto em itálico</i>
 ```
 * Sublinhado `<u>`
 ```rust
-<u>
-    Texto Sublinhado
-</u>
+<u>Texto Sublinhado</u>
 ```
 * Destaque Negrito `<strong>`
 ```rust
-<p>
-    Texto em <strong>destaque</strong>
-</p>
+<p>Texto em <strong>destaque</strong></p>
 ```
 * Span `<span>`
 ```rust
-<p>
-    Texto <span>importante</span>
-</p>
+<p>Texto <span>importante</span></p>
 ```
 * Small `<small>`
 ```rust
-<p>
-    Texto <small>pequeno</small>
-</p>
+<p>Texto <small>pequeno</small></p>
 ```
 
 ### 6. Listas
@@ -134,26 +122,18 @@ Como criar links usando a tag `<a>` e inserir imagens com a tag `<img>`.
 ```
 * Imagem + Link
 ```rust
-<a 
-href="https://www.exemplo.com">
-    <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
-</a>
+<a href="https://www.exemplo.com"><img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200"></a>
 ```
 
 ### 8. Tabelas
 Como construir e estilizar tabelas usando as tags:
 
-`<table>` Define uma tabela. É o contêiner principal para todos os elementos de uma tabela.
+- `<table>` Define uma tabela. É o contêiner principal para todos os elementos de uma tabela.
+- `<thead>` Agrupa o conteúdo de cabeçalho da tabela. Geralmente, isso inclui uma ou mais linhas de cabeçalho `<tr>` com células de cabeçalho `<th>`.
+- `<tbody>` Agrupa o conteúdo do corpo da tabela. Contém uma ou mais linhas `<tr>` com células de dados `<td>`.
+- `<tr>` Define uma linha em uma tabela. Pode ser usada tanto no cabeçalho `<thead>` quanto no corpo `<tbody>` da tabela.
+- `<td>` Define uma célula de dados em uma tabela. É usada dentro de uma linha `<tr>` para conter os dados da tabela.
 
-`<thead>` Agrupa o conteúdo de cabeçalho da tabela. Geralmente, isso inclui uma ou mais linhas de cabeçalho `<tr>` com células de cabeçalho `<th>`.
-
-`<tbody>` Agrupa o conteúdo do corpo da tabela. Contém uma ou mais linhas `<tr>` com células de dados `<td>`.
-
-`<tr>` Define uma linha em uma tabela. Pode ser usada tanto no cabeçalho `<thead>` quanto no corpo `<tbody>` da tabela.
-
-`<td>` Define uma célula de dados em uma tabela. É usada dentro de uma linha `<tr>` para conter os dados da tabela.
-
-* Definir uma tabela
 ```rust
 <table>
     <thead>
