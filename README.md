@@ -1,216 +1,195 @@
-# **TAGS HTML**
+# **Estrutura HTML**
 
 ## Índice
-* [1. Definir HTML](#1-definir-o-documento-html)
-* [2. Cabeçalho e Parágrafos](#2-cabeçalhos-e-parágrafos)
-* [3. Definir Parágrafo](#3-definir-um-parágrafo)
-* [4. Botões *Buttons*](#4-botão)
-* [5. Formatação de Texto](#5-formatação-de-texto)
-* [6. Listas](#6-listas)
-* [7. Links e Imagens](#7-links-e-imagens)
-* [8. Tabelas](#8-tabelas)
-* [9. Formulários](#9-formulários)
-* [10. Seções e Agrupamentos](#10-seções-e-agrupamentos)
-* [11. Outras Tags](#11-outros)
+* [Div (Divisão ou seção)](#div-divisão-ou-seção)
+* [Header (Cabeçalho)](#header-cabeçalho)
+* [Footer (Rodapé)](#footer-rodapé)
+* [Section (Seção)](#section-seção)
+* [Nav (Menu de navegação)](#nav-menu-de-navegação)
+* [Aticle (Artigo)](#aticle-artigo)
+* [Aside (Conteúdo relacionado)](#aside-conteúdo-relacionado)
+* [Body (Contêiner do conteúdo de uma página HTML)](#body-contêiner-do-conteúdo-de-uma-página-html)
+* [Main (Conteúdo principal)](#main-conteúdo-principal)
+* [Figure (Figura)](#figure-figura)
+* [Figcaption (Legenda da figura)](#figcaption-legenda-da-figura)
 
 ## Ferramentas utilizadas no desenvolvimento
 <div align="auto">
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/3804386a-094d-42de-8a5d-f4dfb033ffba" alt="js" width="50"></a>
-    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/99565e92-5ce7-4298-ac67-95801f113f9f" alt="ts" width="50"></a>
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/64486d67-8973-4b62-bdfc-212cf9f16709" alt="md" width="50"></a>
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/d3813ef4-1409-40c9-9bfb-6e988f79b2c8" alt="Git" width="50"></a>
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b03adba8-e155-4555-8737-2afaf449620d" alt="Node" width="50"></a>
 </div>
 
-### 1. Definir o documento HTML
+## Conteúdo estrutura HTML
 Para iniciar o novo documento digite *html* ou *!* e depois tecle *Enter* que iniciará.
- 
-```rust
+
+### Div (Divisão ou seção)
+A tag `<div>` é usada como um contêiner genérico para agrupar elementos de bloco para fins de estilo (usando CSS) ou scripting (usando JavaScript).
+```r
+<div class="container">
+  <p>Este é um parágrafo dentro de um div com uma classe.</p>
+</div>
+```
+### Header (Cabeçalho)
+A tag `<header>` representa um cabeçalho de introdução ou grupo de navegação.
+```r
+<header>
+  <h1>Este é um título dentro do meu cabeçalho</h1>
+</header>
+```
+
+### Footer (Rodapé)
+A tag `<footer>` define o rodapé para um documento ou seção.
+```r
+<footer>
+  <p>&copy; 2024 Meu Site. Este é o parágrafo no rodapé no meu site.</p>
+</footer>
+```
+
+### Section (Seção)
+A tag `<section>` define uma seção em um documento.
+```r
+<section>
+  <h2>Este é um título dentro da minha seção</h2>
+</section>
+```
+### Nav (Menu de navegação)
+A tag `<nav>` define um conjunto de links de navegação.
+```r
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">Sobre</a></li>
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#contact">Contato</a></li>
+  </ul>
+</nav>
+```
+### Aticle (Artigo)
+A tag `<article>` define conteúdo independente e isolável que é relevante dentro do contexto de um documento.
+```r
+<article>
+    <h2>Este é um título dentro do meu artigo</h2>
+</article>
+```
+### Aside (Conteúdo relacionado)
+A tag `<aside>` é usada para definir um conteúdo adicional que pode ser considerado separado do conteúdo principal.
+```r
+<aside>
+    <h2>Este é um título dentro do meu conteúdo</h2>
+</aside>
+```
+### Body (Contêiner do conteúdo de uma página HTML)
+O `<body>` é o contêiner principal para todo o conteúdo de uma página HTML. Pode incluir qualquer elemento HTML, incluindo `<main>`, `<header>`, `<footer>`, `<section>`, `<div>`, `<article>`, `<aside>`, e muitos outros.
+```r
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Título da Página</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Estrutura HTML</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    [Conteúdo da página]
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Seção 1</h2>
+      <p>Conteúdo da seção 1.</p>
+    </section>
+
+    <div class="container">
+      <h2>Divisão</h2>
+      <p>Conteúdo dentro de um div.</p>
+    </div>
+    
+    <article>
+      <h2>Artigo</h2>
+      <p>Este é o conteúdo do artigo.</p>
+    </article>
+
+    <aside>
+      <h3>Informações Adicionais</h3>
+      <p>Conteúdo relacionado ao artigo principal.</p>
+    </aside>
+    
+    <figure>
+      <img src="imagem.jpg" alt="Descrição da imagem">
+      <figcaption>Legenda da imagem.</figcaption>
+    </figure>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
+
 ```
-
-### 2. Cabeçalhos e Parágrafos
-Definem cabeçalhos, sendo *h1* o mais importante e *h6* o menos importante.
-> Os tamanhos de *h1* a *h6* são variáveis.
-
-```rust
-<h1>Cabeçalho 1</h1>
-<h2>Cabeçalho 2</h2>
-<h3>Cabeçalho 3</h3>
-<h4>Cabeçalho 4</h4>
-<h5>Cabeçalho 5</h5>
-<h6>Cabeçalho 6</h6>
-```
-
-### 3. Definir um parágrafo
+### Main (Conteúdo principal)
+Dentro de um elemento `<main>`, você pode ter `<header>`, `<footer>`, `<section>`, `<div>`, `<article>`, `<aside>`, e outros elementos HTML. É usado para envolver o conteúdo principal de uma página, e pode conter uma variedade de elementos de bloco para estruturar esse conteúdo.
 ```r
-<p>Este é um parágrafo de texto.</p>
-```
+<main>
+  <header>
+    <h1>Título Principal</h1>
+  </header>
+  
+  <section>
+    <h2>Seção 1</h2>
+    <p>Conteúdo da seção 1.</p>
+  </section>
 
-### 4. Botão
-```rust
-<button type="button">Clique Aqui</button>
-```
+  <div class="container">
+    <h2>Divisão</h2>
+    <p>Conteúdo dentro de um div.</p>
+  </div>
+  
+  <article>
+    <h2>Artigo</h2>
+    <p>Este é o conteúdo do artigo.</p>
+  </article>
 
-### 5. Formatação de Texto
-* Negrito
+  <aside>
+    <h3>Informações Adicionais</h3>
+    <p>Conteúdo relacionado ao artigo principal.</p>
+  </aside>
+  
+  <figure>
+    <img src="imagem.jpg" alt="Descrição da imagem">
+    <figcaption>Legenda da imagem.</figcaption>
+  </figure>
+
+  <footer>
+    <p>Rodapé do conteúdo principal.</p>
+  </footer>
+</main>
+```
+### Figure (Figura)
+A tag `<figure>` especifica conteúdo que é auto-contido, como ilustrações, diagramas, fotos, etc.
 ```r
-<b>Texto em negrito</b>
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+</figure>
 ```
-* Itálico
+### Figcaption (Legenda da figura)
+A tag `<figcaption>` define uma legenda para o elemento `<figure>`.
 ```r
-<i>Texto em itálico</i>
-```
-
-### 6. Listas
-* Lista não ordenada
-
-```rust
-<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ul>
-```
-* Lista ordenada
-```rust
-<ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ol>
-```
-
-### 7. Links e Imagens
-* Hiperlink
-```rust
-<a href="https://www.exemplo.com" target="_blank" title="Visite o Exemplo">Clique Aqui</a>
-```
-* Imagem
-```rust
-<img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
-```
-* Imagem + Link
-```rust
-<a href="https://www.exemplo.com">
-    <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200">
-</a>
-```
-
-### 8. Tabelas
-* Definir uma tabela
-```rust
-<table>
-    <thead>
-        <tr>
-            <th>Coluna 1</th>
-            <th>Coluna 2</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Dado 1</td>
-            <td>Dado 2</td>
-        </tr>
-        <tr>
-            <td>Dado 3</td>
-            <td>Dado 4</td>
-        </tr>
-    </tbody>
-</table>
-```
-
-### 9. Formulários
-* Definir um formulário
-```rust
-<form action="/enviar" method="post">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome">
-    
-    <label for="mensagem">Mensagem:</label>
-    <textarea id="mensagem" name="mensagem"></textarea>
-    
-    <label for="opcoes">Escolha uma opção:</label>
-    <select id="opcoes" name="opcoes">
-        <option value="opcao1">Opção 1</option>
-        <option value="opcao2">Opção 2</option>
-    </select>
-    
-    <button type="submit">Enviar</button>
-</form>
-```
-
-### 10. Seções e Agrupamentos
-* Divisão ou seção
-```rust
-<div class="container">
-    <h2>Conteúdo da Div</h2>
-    <p>Este é um exemplo de uso da tag &lt;div&gt; para agrupar conteúdo.</p>
-</div>
-```
-* Seção em linha
-```r
-<p>Texto com <span>parte em destaque</span>.</p>
-```
-* Cabeçalho de Seção (header)
-```rust
-<header>
-    <h1>Título da Página</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-</header>
-```
-* Seção
-```rust
-<section>
-    <h2>Introdução</h2>
-    <p>Este é um exemplo de uso da tag &lt;section&gt; para agrupar conteúdo relacionado.</p>
-</section>
-```
-* Rodapé (footer)
-```rust
-<footer>
-    <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
-</footer>
-```
-### 11. Outros
-* Script
-```rust
-<script>
-    console.log('Olá, mundo!');
-</script>
-```
-* Link para CSS
-```rust
-<link rel="stylesheet" href="estilos.css">
-```
-* Metadados
-```rust
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Descrição do site">
-```
-* Estilos embutidos
-```rust
-<style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-</style>
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem.</figcaption>
+</figure>
 ```
 ## Contato
 Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
@@ -223,6 +202,7 @@ Para saber mais sobre meus trabalhos, entre em contato comigo através do <a hre
         <img src="https://github.com/user-attachments/assets/3fda6271-fd40-4485-bb7c-60b927b9feae" alt="GitHub" width="25">
     </a>
 </div>
+
 
 > [!WARNING]
 > Este código é disponibilizado exclusivamente para fins de estudo e aprendizado. A reprodução total ou parcial deste código, sem autorização prévia, é expressamente proibida. A utilização deste código em projetos comerciais, distribuição não autorizada ou qualquer outro uso que não seja educativo pode resultar em sanções legais. Ao utilizar este código, você concorda em respeitar os termos de uso e a propriedade intelectual do autor.
