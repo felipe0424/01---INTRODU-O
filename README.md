@@ -1,5 +1,8 @@
-<a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b0cd55d7-f6f0-4cf9-a90d-db45c1832215" alt="html" width="50" align="right"></a>
+<a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b0cd55d7-f6f0-4cf9-a90d-db45c1832215" alt="html" width="50" align="left"></a>
+<div align="Center">
+
 # **Tags HTML**
+</div>
 
 ## Índice
 * [1. Definir HTML](#1-definir-o-documento-html)
