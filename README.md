@@ -16,6 +16,7 @@
 * [7. Links e Imagens](#7-links-e-imagens)
 * [8. Tabelas](#8-tabelas)
 * [9. Outras Tags](#9-outras-tags)
+* [10. Tags vazias e contêineres](#10-tags-vazias-e-tags-contêineres)
 
 ## :computer:	Ferramentas e linguagens utilizadas no desenvolvimento
 <div align="auto">
@@ -192,41 +193,41 @@ Exploração de outras tags HTML úteis, como `<script>`, `<link>`, `<meta>`e `<
 ```
 ### 10. Tags vazias e Tags contêineres
 
-| **Tags Vazias**   | **Tags Contêineres**    |
-|-------------------|-------------------------|
-| `<area>`          | `<div></div>`           |
-| `<base>`          | `<span></span>`         |
-| `<br>`            | `<p></p>`               |
-| `<col>`           | `<a></a>`               |
-| `<embed>`         | `<header></header>`     |
-| `<hr>`            | `<footer></footer>`     |
-| `<img>`           | `<section></section>`   |
-| `<input>`         | `<article></article>`   |
-| `<link>`          | `<nav></nav>`           |
-| `<meta>`          | `<main></main>`         |
-| `<param>`         | `<aside></aside>`       |
-| `<source>`        | `<figure></figure>`     |
-| `<track>`         | `<figcaption></figcaption>` |
-| `<wbr>`           | `<blockquote></blockquote>` |
-|                   | `<ul></ul>`             |
-|                   | `<ol></ol>`             |
-|                   | `<li></li>`             |
-|                   | `<table></table>`       |
-|                   | `<thead></thead>`       |
-|                   | `<tbody></tbody>`       |
-|                   | `<tfoot></tfoot>`       |
-|                   | `<tr></tr>`             |
-|                   | `<th></th>`             |
-|                   | `<td></td>`             |
-|                   | `<form></form>`         |
-|                   | `<fieldset></fieldset>` |
-|                   | `<legend></legend>`     |
-|                   | `<label></label>`       |
-|                   | `<button></button>`     |
-|                   | `<select></select>`     |
-|                   | `<option></option>`     |
-|                   | `<textarea></textarea>` |
-|-------------------|-------------------------|
+| **Tags Contêineres**    | **Tags Vazias**   |
+|-------------------------|-------------------|
+| `<div></div>`           | `<area>`          |
+| `<span></span>`         | `<base>`          |
+| `<p></p>`               | `<br>`            |
+| `<a></a>`               | `<col>`           |
+| `<header></header>`     | `<embed>`         |
+| `<footer></footer>`     | `<hr>`            |
+| `<section></section>`   | `<img>`           |
+| `<article></article>`   | `<input>`         |
+| `<nav></nav>`           | `<link>`          |
+| `<main></main>`         | `<meta>`          |
+| `<aside></aside>`       | `<param>`         |
+| `<figure></figure>`     | `<source>`        |
+| `<figcaption></figcaption>` | `<track>`    |
+| `<blockquote></blockquote>` | `<wbr>`       |
+| `<ul></ul>`             |                   |
+| `<ol></ol>`             |                   |
+| `<li></li>`             |                   |
+| `<table></table>`       |                   |
+| `<thead></thead>`       |                   |
+| `<tbody></tbody>`       |                   |
+| `<tfoot></tfoot>`       |                   |
+| `<tr></tr>`             |                   |
+| `<th></th>`             |                   |
+| `<td></td>`             |                   |
+| `<form></form>`         |                   |
+| `<fieldset></fieldset>` |                   |
+| `<legend></legend>`     |                   |
+| `<label></label>`       |                   |
+| `<button></button>`     |                   |
+| `<select></select>`     |                   |
+| `<option></option>`     |                   |
+| `<textarea></textarea>` |                   |
+
 
 ## :telephone_receiver:	Contato
 Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
